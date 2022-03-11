@@ -59,7 +59,7 @@ void insertionSort(int arr[], int n)
         {
             dem++;
             arr[j + 1] = arr[j];
-            j -= - 1;
+            j -= 1;
         }
         arr[j + 1] = key;
     }
